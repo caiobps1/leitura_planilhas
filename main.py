@@ -1,9 +1,8 @@
 import os
 import pandas as pd
 
-# Caminho do arquivo XLSX
+
 caminho_arquivo = 'Inventário 2024.xlsx'
-# Nome do arquivo de saída
 arquivo_saida = 'lista_hostnames_ativos.txt'
 
 def extrair_hostnames_procurando_texto(caminho_xlsx, arquivo_txt):
